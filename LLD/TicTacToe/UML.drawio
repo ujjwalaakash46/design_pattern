@@ -1,0 +1,58 @@
+<mxfile host="drawio-plugin" modified="2024-11-15T06:22:07.578Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="22.1.22" etag="vTEzBIkAMN-J4LUDlFCK" type="embed">
+  <diagram id="nICqFy6iPaTC5MsSVsNe" name="Page-1">
+    <mxGraphModel dx="798" dy="324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="11" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;" parent="1" source="5" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;Player&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;piece&lt;br&gt;name&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;overflow=fill;strokeWidth=2;perimeterSpacing=5;" parent="1" vertex="1">
+          <mxGeometry x="510" y="70" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Playing Piece" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="340" width="140" height="60" as="geometry">
+            <mxRectangle x="290" y="400" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="Piece type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="7" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="18" style="edgeStyle=none;html=1;endArrow=block;endFill=1;" parent="1" source="14" target="16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="14" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Game&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Board&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;overflow=fill;strokeWidth=2;align=center;glass=0;shadow=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="80" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="19" style="edgeStyle=none;html=1;endArrow=block;endFill=1;" parent="1" source="16" target="23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="&lt;div style=&quot;&quot;&gt;Board&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;List&amp;lt;List&amp;lt;Cell&amp;gt;&amp;gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;overflow=fill;strokeWidth=2;align=center;glass=0;shadow=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="310" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="list&amp;lt;players&amp;gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="125" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="&lt;div style=&quot;&quot;&gt;Cell&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;piece&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;overflow=fill;strokeWidth=2;align=center;glass=0;shadow=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="460" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="530" />
+              <mxPoint x="600" y="402" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
